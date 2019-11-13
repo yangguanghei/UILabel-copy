@@ -16,6 +16,7 @@
 		A29DE580237BFCE70038EFAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A29DE57F237BFCE70038EFAD /* main.m */; };
 		A29DE58A237BFCE70038EFAD /* UILabel_copyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A29DE589237BFCE70038EFAD /* UILabel_copyTests.m */; };
 		A29DE595237BFCE70038EFAD /* UILabel_copyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A29DE594237BFCE70038EFAD /* UILabel_copyUITests.m */; };
+		A29DE5A4237BFE430038EFAD /* UILabel+LSCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = A29DE5A3237BFE430038EFAD /* UILabel+LSCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		A29DE590237BFCE70038EFAD /* UILabel+copyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UILabel+copyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A29DE594237BFCE70038EFAD /* UILabel_copyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UILabel_copyUITests.m; sourceTree = "<group>"; };
 		A29DE596237BFCE70038EFAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A29DE5A2237BFE430038EFAD /* UILabel+LSCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+LSCopy.h"; sourceTree = "<group>"; };
+		A29DE5A3237BFE430038EFAD /* UILabel+LSCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+LSCopy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +107,8 @@
 		A29DE56C237BFCD80038EFAD /* UILabel+copy */ = {
 			isa = PBXGroup;
 			children = (
+				A29DE5A2237BFE430038EFAD /* UILabel+LSCopy.h */,
+				A29DE5A3237BFE430038EFAD /* UILabel+LSCopy.m */,
 				A29DE56D237BFCD80038EFAD /* AppDelegate.h */,
 				A29DE56E237BFCD80038EFAD /* AppDelegate.m */,
 				A29DE570237BFCD80038EFAD /* SceneDelegate.h */,
@@ -267,6 +272,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29DE5A4237BFE430038EFAD /* UILabel+LSCopy.m in Sources */,
 				A29DE575237BFCD80038EFAD /* ViewController.m in Sources */,
 				A29DE56F237BFCD80038EFAD /* AppDelegate.m in Sources */,
 				A29DE580237BFCE70038EFAD /* main.m in Sources */,
@@ -440,7 +446,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8ETH5Y5NB;
 				INFOPLIST_FILE = "UILabel+copy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -456,7 +464,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K8ETH5Y5NB;
 				INFOPLIST_FILE = "UILabel+copy/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
